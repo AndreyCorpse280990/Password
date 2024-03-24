@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Password
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         string capitalLetter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         string lowerLetter = "abcdefghijklmnopqrstuvwxyz";
@@ -22,7 +22,7 @@ namespace Password
         private int scrollValue;
         Random random = new Random();
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
